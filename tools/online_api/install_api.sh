@@ -1,7 +1,7 @@
 #!/bin/bash
 
 mkdir /root/online_api
-wget -O /root/online_api/onlines_api https://raw.githubusercontent.com/TelksBr/SSH_T_PROJECT_VPN/page/null/online_api/go_lang/onlines_api
+wget -O /root/online_api/onlines_api https://raw.githubusercontent.com/TelksBr/SSH-T-PROJECT-TOOLS/refs/heads/main/tools/online_api/onlines_api
 chmod +x /root/online_api/onlines_api
 
 SERVICE_NAME="api-server"
